@@ -1,11 +1,8 @@
-# Elf/OS Trim
+# MiniDOS-trim
 
-> [!NOTE]
->This repository has a submodule for the include files needed to build it. You can have these pulled automatically if you add the  --recurse option to your git clone command.
-
-This is a utility to change the length of an Elf/OS file. The usage is:
+This is a utility to change the length of a Mini/DOS file. The usage is:
 ```
-del [-s size] file
+trim [-s size] file
 ```
 When run with no argument, it will remove any XMODEM block padding from the end of the named file.
 
